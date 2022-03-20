@@ -23,7 +23,7 @@ chart_def = """{
     title: {
         floating: true,
         align: 'left',
-        text: 'Winter Olympic Medal Wins'
+        text: ''
     },
     subtitle: {
         floating: true,
@@ -65,7 +65,7 @@ chart_def = """{
                 y: 30,
                 yAxis: 0
             },
-            text: 'Cancelled<br>during<br>World War II'
+            text: ''
         }, {
             point: {
                 x: 18,
@@ -73,7 +73,7 @@ chart_def = """{
                 y: 90,
                 yAxis: 0
             },
-            text: 'Soviet Union fell,<br>Germany united'
+            text: ''
         }],
         labelOptions: {
             backgroundColor: 'rgba(255,255,255,0.5)',

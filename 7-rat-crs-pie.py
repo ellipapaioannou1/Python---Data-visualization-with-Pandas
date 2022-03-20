@@ -15,7 +15,7 @@ chart_def = """ {
         
     },
     title: {
-        text: 'Browser market shares in January, 2018'
+        text: 'Course reviews, pie chart'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -77,7 +77,7 @@ chart_def = """ {
 def app():
         wp = jp.QuasarPage()
         h1 = jp.QDiv(a=wp, text="Analysis of Course Reviews", classes="text-h3 text-center q-pa-md")
-        p1 = jp.QDiv(a=wp, text="This Graph Represent Course Reviews", classes="text-h5 q-pl-md")
+        p1 = jp.QDiv(a=wp, text="This Graph Represents Course Reviews", classes="text-h5 q-pl-md")
         hc = jp.HighCharts(a=wp, options= chart_def)
         hc.options = chart_def
 
